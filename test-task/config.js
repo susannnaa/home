@@ -1,0 +1,9 @@
+general.config(function($routeProvider){
+    $routeProvider
+        .when('/',{
+            templateUrl:'user-list/user-list.html'
+        })
+       .when('/edituser',{
+        templateUrl:'edit-user/edit-user.html'
+       })
+})
